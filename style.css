@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(251, 210, 6);
+}
+
+#more_sketches{
+    float: right;
+}
+
+h3{
+    background-color: wheat;
+    color: blue;
+    font-size: 30px;
+}
+
+p{
+    font-size: 23px;
+}
+
+canvas{
+    border-radius: 20px;
+    animation-name: shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    
+}
+
+@keyframes shadow{
+    from{box-shadow: 5px 5px 40px gray;}
+    to{
+        box-shadow:5px 5px 40px white ;
+
+    }
+}
